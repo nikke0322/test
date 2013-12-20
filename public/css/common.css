@@ -1,0 +1,118 @@
+/* ===================================================
+
+  共通スタイル
+
+=====================================================*/
+#side {
+	width:250px;
+	position:fixed;
+	top:0;
+	left:-245px;
+	bottom:0;
+	background: #222;
+	color:#fff;
+}
+#side a {
+	color:#fff;
+	text-decoration:none;
+}
+#side ul {
+	font-size:12px;
+}
+#main {
+}
+
+#side a.back {
+	display:block;
+	padding:10px;
+	font-size:11px;
+	border-bottom:solid 1px #111;
+}
+#side h1 {
+	display:block;
+	padding:20px 15px;
+	font-size:18px;
+	border-bottom:solid 1px #111;
+}
+#side ul.pages {
+	display:block;
+	border-top:solid 1px #111;
+}
+#side ul.pages li {
+	display:block;
+	border-bottom: dashed 1px #111;
+	padding:6px 10px 20px 12px;
+	position:relative;
+}
+#side ul.pages li:hover {
+	background: #1a1a1a;
+}
+#side ul.pages li a {
+}
+#side ul.pages li span.dl {
+	display:block;
+	position:absolute;
+	right:5px;
+	top:5px;
+	
+	
+}
+#side ul.pages li span.dl a {
+	color:#999;
+	font-size:8px;
+	width:22px;
+	height:20px;
+	padding-top:2px;
+	text-align:center;
+	background:#1e1e1e;
+	display:block;
+	border:solid 1px #111;
+}
+#side ul.pages li span.filename {
+	display:block;
+	font-size:10px;
+	color:#666;
+	
+}
+#side a.baseSet {
+	display:block;
+	width:50%;
+	margin: 10px auto;
+	text-align:center;
+	padding:5px 0;
+	background: #1a1a1a;
+	border:solid 1px #333;
+}
+#side a.baseSet:hover {
+	background:#111;
+}
+#side ul.action {
+	display:block;
+	overflow:hidden;
+	border-bottom:solid 1px #111;
+}
+#side ul.action li {
+	display:block;
+	width:50%;
+	box-sizing:border-box;
+	float:left;
+}
+#side ul.action li a {
+	display:block;
+	box-sizing:border-box;
+	text-align:center;
+	padding:5px 0;
+	box-shadow: inset 0 -1px 3px #1d1d1d;
+}
+#side ul.action li a:hover {
+	background: #111;
+}
+#side #openLink {
+	position: absolute;
+	top:150px;
+	right:-25px;
+	background:#222;
+	width:25px;
+	text-align:center;
+	padding:10px 0;
+}
